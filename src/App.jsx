@@ -8,13 +8,16 @@ import { SobreNos } from "./pages/SobreNos"
 import { HeaderLogadoClaro } from "./components/HeaderLogadoClaro"
 import { HeaderDeslogadoClaro } from "./components/HeaderDeslogadoClaro"
 import { HeaderCadastro } from "./components/HeaderCadastro"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 
 export function App() {
   return(
-    <div>
-      <HeaderLogadoClaro />
-      <Home />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/Conheca' element={<Conheca/>}/>
+      </Routes>
+    </BrowserRouter>
   )
 }
