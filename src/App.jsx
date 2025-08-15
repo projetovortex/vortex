@@ -14,17 +14,17 @@ import { ItensUsados } from "./pages/ItensUsados"
 
 export function App() {
   return(
-    <div>
-      <ItensUsados/>
-    </div>
-    // <BrowserRouter>
-    //   <Routes>
-    //     <Route path='/' element={<Home/>}/>
-    //     <Route path='/Conheca' element={<Conheca/>}/>
-    //     <Route path='/Jogo' element={<Jogo/>}/>
-    //     <Route path='/Aplicativo' element={<Aplicativo/>}/>
-    //     <Route path='/SobreNos' element={<SobreNos/>}/>
-    //   </Routes>
-    // </BrowserRouter>
+     <BrowserRouter>
+       <Routes>
+         <Route path='/' element={<Home/>}/>
+         <Route path='/Conheca' element={<Conheca/>}/>
+         <Route path='/Jogo' element={<Jogo/>}/>
+         <Route path='/Aplicativo' element={<Aplicativo/>}/>
+         <Route path='/SobreNos' element={<SobreNos/>}/>
+         <Route path='/ItensUsados' element={<ItensUsados/>}/>
+         <Route path='/Referencias' element={<Referencias/>}/>
+         <Route path='/ComoUsar' element={<ComoUsar/>}/>
+       </Routes>
+     </BrowserRouter>
   )
 }

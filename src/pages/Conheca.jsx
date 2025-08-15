@@ -1,5 +1,6 @@
 import imagemProjeto from "../assets/imagemProjeto.jpeg"
 import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
+import { Link } from "react-router-dom"
 
 export function Conheca() {
     return(
@@ -18,9 +19,9 @@ export function Conheca() {
                     </div>
                     
                     <div className="flex flex-col text-purple-800 text-xl gap-10 pt-20">
-                        <button className="cursor-pointer bg-teal-200 px-15 py-5 rounded-xl">Veja os itens</button>
-                        <button className="cursor-pointer bg-teal-200 px-15 py-5 rounded-xl">Como usar</button>
-                        <button className="cursor-pointer bg-teal-200 px-15 py-5 rounded-xl">Referências</button>
+                        <Link to={"/ItensUsados"} className="cursor-pointer bg-teal-200 px-15 py-5 rounded-xl">Veja os itens</Link>
+                        <Link to={"/ComoUsar"} button className="cursor-pointer bg-teal-200 px-15 py-5 rounded-xl">Como usar</Link>
+                        <Link to={"/Referencias"} button className="cursor-pointer bg-teal-200 px-15 py-5 rounded-xl">Referências</Link>
                     </div>
                 </div>
             </div>

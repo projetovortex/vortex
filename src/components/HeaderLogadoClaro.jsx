@@ -9,15 +9,15 @@ export function HeaderLogadoClaro() {
             <header className="px-10 py-5 pb-30 flex justify-between align-middle h-25 font-hanken font-bold text-white text-2xl">
 
                 <div className="flex align-center justify-center gap-3">
-                    <button className="cursor-pointer w-fit"><img className="w-20 h-20" src={iconVortex} alt="icone vortex"/></button>
-                    <button className="cursor-pointer pt-6">VORTEX</button>
+                    <Link to={"/"} className="cursor-pointer w-fit"><img className="w-20 h-20" src={iconVortex} alt="icone vortex"/></Link>
+                    <Link to={"/"} className="cursor-pointer pt-6">VORTEX</Link>
                 </div>
                 
                 <div className="flex gap-35 pt-6">
-                    <a href="">Conheça</a>
-                    <a href="">Jogo</a>
-                    <a href="">App</a>
-                    <a href="">Sobre nós</a>
+                    <Link to={"/Conheca"}>Conheça</Link>
+                    <Link to={"/Jogo"}>Jogo</Link>
+                    <Link to={"/Aplicativo"}>App</Link>
+                    <Link to={"/SobreNos"}>Sobre nós</Link>
                 </div>
                 
                 <div>
