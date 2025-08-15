@@ -1,7 +1,7 @@
 import iconVortex from "../assets/iconVortex.png"
 import modoClaro from "../assets/modoClaro.png"
-import iconContaClaro from "../assets/iconContaClaro.png"
 import { Link } from "react-router-dom"
+import React from "react"
 
 export function HeaderLogadoClaro() {
     return(
@@ -14,7 +14,7 @@ export function HeaderLogadoClaro() {
                 </div>
                 
                 <div className="flex gap-35 pt-6">
-                    <Link to={"/Conheca"}>Conheça</Link>
+                    <a href="">Conheça</a>
                     <a href="">Jogo</a>
                     <a href="">App</a>
                     <a href="">Sobre nós</a>

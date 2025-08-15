@@ -1,4 +1,5 @@
 import imagemApp from "../assets/imagemApp.png"
+import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
 
 export function Aplicativo(){
     return(

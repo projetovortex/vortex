@@ -2,6 +2,7 @@ import fatima from "../assets/fatima.png"
 import laube from "../assets/laube.png"
 import monique from "../assets/monique.png"
 import livia from "../assets/livia.png"
+import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
 
 export function SobreNos() {
     return(

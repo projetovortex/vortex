@@ -1,3 +1,5 @@
+import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
+
 export function Referencias() {
     return(
         <div>

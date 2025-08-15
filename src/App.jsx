@@ -9,15 +9,22 @@ import { HeaderLogadoClaro } from "./components/HeaderLogadoClaro"
 import { HeaderDeslogadoClaro } from "./components/HeaderDeslogadoClaro"
 import { HeaderCadastro } from "./components/HeaderCadastro"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { ItensUsados } from "./pages/ItensUsados"
 
 
 export function App() {
   return(
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/Conheca' element={<Conheca/>}/>
-      </Routes>
-    </BrowserRouter>
+    <div>
+      <ItensUsados/>
+    </div>
+    // <BrowserRouter>
+    //   <Routes>
+    //     <Route path='/' element={<Home/>}/>
+    //     <Route path='/Conheca' element={<Conheca/>}/>
+    //     <Route path='/Jogo' element={<Jogo/>}/>
+    //     <Route path='/Aplicativo' element={<Aplicativo/>}/>
+    //     <Route path='/SobreNos' element={<SobreNos/>}/>
+    //   </Routes>
+    // </BrowserRouter>
   )
 }

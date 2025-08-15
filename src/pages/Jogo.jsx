@@ -5,6 +5,7 @@ import nefret from "../assets/nefret.png"
 import han from "../assets/han.png"
 import setaEsquerda from "../assets/setaEsquerda.png"
 import setaDireita from "../assets/setaDireita.png"
+import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
 
 import { CardNymeria } from "../components/CardNymeria"
 import { CardAbyss } from "../components/CardAbyss"

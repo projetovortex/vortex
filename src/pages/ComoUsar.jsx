@@ -1,4 +1,5 @@
 import imagemProjeto from "../assets/imagemProjeto.jpeg"
+import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
 
 export function ComoUsar() {
     return(
