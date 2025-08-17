@@ -17,15 +17,15 @@ export function Jogo() {
         <div>
             <HeaderLogadoClaro/>
             <div className="flex flex-col items-center">
-                <h1 className="text-8xl text-indigo-950 font-questrial pb-10">Conheça nosso jogo</h1>
+                <h1 className="text-7xl text-white font-questrial pb-10">Conheça nosso jogo</h1>
 
-                <div className="flex gap-40 pb-10 font-questrial text-white">
+                <div className="flex gap-30 pb-15 font-questrial text-white">
                     <p className="text-3xl pt-30">Um mago causa fendas no <br />
                     tempo ao tentar criar energia <br />
                     eterna. Agora, heróis devem <br />
                     reunir fragmentos para salvar <br />
                     o mundo.</p>
-                    <img className="w-140 h-120 pb-10" src={imagemJogo} alt="imagem jogo" />
+                    <img className="w-130 h-120 pb-10" src={imagemJogo} alt="imagem jogo" />
                 </div>
 
                 <div className="bg-[url('./src/assets/bgJogo1.png')] pb-45 w-full flex flex-col items-center">

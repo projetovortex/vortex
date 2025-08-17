@@ -14,7 +14,7 @@ export function Aplicativo(){
                     dispositivo e o carregamento da <br />
                     bateria.</p>
                     <div className="flex pl-40">
-                        <button className="cursor-pointer bg-teal-200 w-50 py-5 rounded-xl text-purple-800 text-xl">BAIXAR</button>
+                        <button className="cursor-pointer bg-cyan-button w-50 py-5 rounded-xl text-purple-button text-xl">BAIXAR</button>
                     </div>
                 </div>
                 <img src={imagemApp} alt="imagem aplicativo" />

@@ -3,10 +3,10 @@ import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
 
 export function ComoUsar() {
     return(
-        <div>
+        <div className="bg-[url('./src/assets/bgComoUsar.png')]">
             <HeaderLogadoClaro/>
-            <div className="flex flex-col justify-center items-center">
-                <h1 className="text-7xl text-indigo-950 font-questrial pb-5">Como usar o Vortex?</h1>
+            <div className="flex flex-col justify-center items-center pb-10">
+                <h1 className="text-7xl text-very-dark-blue font-questrial pb-5">Como usar o Vortex?</h1>
                 <img src={imagemProjeto} alt="" />
             </div>
         </div>

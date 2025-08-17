@@ -7,29 +7,33 @@ import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
 export function SobreNos() {
     return(
         <div>
-            <HeaderLogadoClaro/>
-            <div className="flex flex-col justify-center items-center">
-                <h1 className="text-7xl text-white font-questrial pb-20">Sobre nós</h1>
+            <div className="bg-[url('./src/assets/bgJogo1.png')]">
+                <HeaderLogadoClaro/>
+                <div className="flex flex-col justify-center items-center">
+                    <h1 className="text-7xl text-white font-questrial pb-7">Sobre nós</h1>
 
-                <div className="flex gap-20 pb-70 font-questrial text-white text-2xl">
-                    <div className="flex flex-col justify-center items-center">
-                        <img src={fatima} alt="fatima" />
-                        <p>Fatima Albuquerque</p>
-                    </div>
-                    <div className="flex flex-col justify-center items-center">
-                        <img src={laube} alt="laube" />
-                        <p>Guilherme Laube</p>
-                    </div>
-                    <div className="flex flex-col justify-center items-center">
-                        <img src={monique} alt="monique" />
-                        <p>Kathelin Monique</p>
-                    </div>
-                    <div className="flex flex-col justify-center items-center">
-                        <img src={livia} alt="livia" />
-                        <p>Lívia Santana</p>
+                    <div className="flex gap-20 pb-70 font-questrial text-white text-2xl">
+                        <div className="flex flex-col justify-center items-center">
+                            <img src={fatima} alt="fatima" />
+                            <p>Fatima Albuquerque</p>
+                        </div>
+                        <div className="flex flex-col justify-center items-center">
+                            <img src={laube} alt="laube" />
+                            <p>Guilherme Laube</p>
+                        </div>
+                        <div className="flex flex-col justify-center items-center">
+                            <img src={monique} alt="monique" />
+                            <p>Kathelin Monique</p>
+                        </div>
+                        <div className="flex flex-col justify-center items-center">
+                            <img src={livia} alt="livia" />
+                            <p>Lívia Santana</p>
+                        </div>
                     </div>
                 </div>
+            </div>
 
+            <div className="bg-[url('./src/assets/bgJogo2.png')] flex flex-col justify-center items-center">
                 <h1 className="text-7xl text-white font-questrial pb-20">Ainda tem alguma dúvida?</h1>
 
                 <div className="flex justify-center gap-30 text-white font-questrial">
@@ -39,13 +43,13 @@ export function SobreNos() {
                             Basta escrever <br />para nós pelo card ao lado ou <br />mandar diretamente pelo nosso <br />email: 
                             <br />gatoarrupiada@gmail.com</p>
                     </div>
-                    <div className="flex flex-col justify-center items-center bg-teal-200 rounded-xl px-10 pt-10 pb-3 mb-30">
-                    <form className="flex flex-col justify-center items-center gap-2 mb-10" action="">
-                        <input className="bg-white pl-5 rounded-2xl text-2xl text-purple-800 w-120 h-10" type="text" placeholder="Insira seu nome"/>
-                        <input className="bg-white pl-5 rounded-2xl text-2xl text-purple-800 w-120 h-10" type="text" placeholder="Insira seu email"/>
-                        <input className="bg-white pl-5 rounded-2xl text-2xl text-purple-800 w-120 h-30" type="text" placeholder="Fale conosco (até 500 caracteres)"/>
-                    </form>
-                    <button className="cursor-pointer bg-purple-800 text-teal-200 px-15 py-3 rounded-xl">Enviar</button>
+                    <div className="flex flex-col justify-center items-center bg-cyan-button rounded-xl px-10 pt-10 pb-3 mb-30">
+                        <form className="flex flex-col justify-center items-center gap-2 mb-10" action="">
+                            <input className="bg-white pl-5 rounded-2xl text-2xl text-light-purple w-120 h-10" type="text" placeholder="Insira seu nome"/>
+                            <input className="bg-white pl-5 rounded-2xl text-2xl text-light-purple w-120 h-10" type="text" placeholder="Insira seu email"/>
+                            <input className="bg-white pl-5 rounded-2xl text-2xl text-light-purple w-120 h-30" type="text" placeholder="Fale conosco (até 500 caracteres)"/>
+                        </form>
+                        <button className="cursor-pointer bg-purple-button2 text-cyan-button px-15 py-3 rounded-xl">ENVIAR</button>
                     </div>
                 </div>
             </div>
