@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 export function Conheca() {
     return(
-        <div>
+        <div className="bg-[url('./src/assets/bgClaro.png')] h-screen w-screen">
             <HeaderLogadoClaro/>
             <div className="flex flex-col justify-center items-center">
                 <h1 className="text-7xl text-very-dark-blue font-questrial pb-5">Conheça o Vortex</h1>
