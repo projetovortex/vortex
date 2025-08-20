@@ -14,9 +14,9 @@ import setaDireita from "../assets/setaDireita.png"
 
 export function ItensUsados() {
     return(
-        <div className="bg-[url('./src/assets/bgJogo1.png')]">
+        <div className="bg-[url('./src/assets/bgJogo1.png')] bg-cover">
             <HeaderLogadoClaro/>
-            <div className="bg-white flex flex-col justify-center items-center">
+            <div className="h-screen bg-white flex flex-col justify-center items-center">
                 <h1 className="text-7xl text-purple-button font-questrial pb-5 pt-10">Itens Usados</h1>
 
                 <div className="flex">

@@ -14,7 +14,7 @@ import { CardHan } from "../components/CardHan"
 
 export function Jogo() {
     return(
-        <div className="bg-[url('./src/assets/bgClaro.png')] h-screen w-screen">
+        <div className="bg-[url('./src/assets/bgClaro.png')] bg-cover h-screen w-screen">
             <HeaderLogadoClaro/>
             <div className="flex flex-col items-center">
                 <h1 className="text-7xl text-white font-questrial pb-10">Conheça nosso jogo</h1>
@@ -28,7 +28,7 @@ export function Jogo() {
                     <img className="w-130 h-120 pb-10" src={imagemJogo} alt="imagem jogo" />
                 </div>
 
-                <div className="bg-[url('./src/assets/bgJogo1.png')] pb-45 w-full flex flex-col items-center">
+                <div className="bg-[url('./src/assets/bgJogo1.png')] bg-cover pb-20 w-full flex flex-col items-center">
                     <h1 className="pt-20 pb-25 text-7xl text-white font-questrial pb-5">Conheça nossos personagens</h1>
                     
                     <div className="flex justify-center gap-10 font-questrial">
@@ -49,17 +49,19 @@ export function Jogo() {
                             <p className="pt-3 text-white text-2xl">Han</p>
                         </div>
                     </div>
-                </div>
 
-                <div className="bg-[url('./src/assets/bgJogo2.png')] pb-10 w-full flex flex-col items-center">
+                    <div className="pt-20 pb-10 w-full flex flex-col items-center">
                     <h1 className="pt-10 pb-10 text-7xl text-white font-questrial pb-5">Onde são as aventuras</h1>
 
-                    <div className="flex justify-center align-middle">
+                    <div className="flex justify-center items-center">
                         <img className="h-50" src={setaEsquerda} alt="seta esquerda" />
                         <CardNymeria />
                         <img className="h-50" src={setaDireita} alt="seta direita" />
                     </div>
                 </div>
+                </div>
+
+                
             </div>
         </div>
     )

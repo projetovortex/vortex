@@ -3,7 +3,7 @@ import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
 
 export function Aplicativo(){
     return(
-        <div className="bg-[url('./src/assets/bgClaro.png')] h-screen w-screen">
+        <div className="bg-[url('./src/assets/bgClaro.png')] bg-cover h-screen w-screen">
             <HeaderLogadoClaro/>
             <div className="flex justify-center align-center gap-50">
                 <div className="flex flex-col pt-10 font-questrial text-white">

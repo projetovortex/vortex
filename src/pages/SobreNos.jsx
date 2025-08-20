@@ -7,7 +7,7 @@ import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
 export function SobreNos() {
     return(
         <div>
-            <div className="bg-[url('./src/assets/bgJogo1.png')]">
+            <div className="bg-[url('./src/assets/bgSobreNos.png')] bg-cover">
                 <HeaderLogadoClaro/>
                 <div className="flex flex-col justify-center items-center">
                     <h1 className="text-7xl text-white font-questrial pb-7">Sobre nós</h1>
@@ -31,9 +31,8 @@ export function SobreNos() {
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div className="bg-[url('./src/assets/bgJogo2.png')] flex flex-col justify-center items-center">
+                <div className="pt-30 flex flex-col justify-center items-center">
                 <h1 className="text-7xl text-white font-questrial pb-20">Ainda tem alguma dúvida?</h1>
 
                 <div className="flex justify-center gap-30 text-white font-questrial">
@@ -43,15 +42,16 @@ export function SobreNos() {
                             Basta escrever <br />para nós pelo card ao lado ou <br />mandar diretamente pelo nosso <br />email: 
                             <br />gatoarrupiada@gmail.com</p>
                     </div>
-                    <div className="flex flex-col justify-center items-center bg-cyan-button rounded-xl px-10 pt-10 pb-3 mb-30">
-                        <form className="flex flex-col justify-center items-center gap-2 mb-10" action="">
-                            <input className="bg-white pl-5 rounded-2xl text-2xl text-light-purple w-120 h-10" type="text" placeholder="Insira seu nome"/>
-                            <input className="bg-white pl-5 rounded-2xl text-2xl text-light-purple w-120 h-10" type="text" placeholder="Insira seu email"/>
-                            <input className="bg-white pl-5 rounded-2xl text-2xl text-light-purple w-120 h-30" type="text" placeholder="Fale conosco (até 500 caracteres)"/>
-                        </form>
+                    <div className="flex flex-col justify-center items-center bg-linear-to-t from-cyan-input to-gray-input rounded-xl px-10 pt-10 pb-3 mb-30">
+                        <div className="flex flex-col justify-center items-center gap-2 mb-5" action="">
+                            <textarea className="bg-white pl-5 rounded-2xl text-2xl text-light-purple w-120 h-10" placeholder="Insira seu nome"></textarea>
+                            <textarea className="bg-white pl-5 rounded-2xl text-2xl text-light-purple w-120 h-10" placeholder="Insira seu email"></textarea>
+                            <textarea className="bg-white pl-5 rounded-2xl text-2xl text-light-purple w-120 h-30" placeholder="Fale conosco (até 500 caracteres)"></textarea>
+                        </div>
                         <button className="cursor-pointer bg-purple-button2 text-cyan-button px-15 py-3 rounded-xl">ENVIAR</button>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     )
