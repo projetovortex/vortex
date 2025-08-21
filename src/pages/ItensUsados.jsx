@@ -17,14 +17,14 @@ export function ItensUsados() {
         <div className="bg-[url('./src/assets/bgJogo1.png')] bg-cover">
             <HeaderLogadoClaro/>
             <div className="h-screen bg-white flex flex-col justify-center items-center">
-                <h1 className="text-7xl text-purple-button font-questrial pb-5 pt-10">Itens Usados</h1>
+                <h1 className="text-7xl text-purple-button font-questrial pb-5 pt-10 text-shadow-sm text-shadow-cyan-shadow-white">Itens Usados</h1>
 
                 <div className="flex">
-                    <button className="w-100 h-100">
+                    <button className="cursor-pointer w-100 h-100">
                         <img src={setaEsquerda} alt="seta voltar" />
                     </button>
                     <CardDinamo/>
-                    <button className="w-100 h-100">
+                    <button className="cursor-pointer w-100 h-100">
                         <img src={setaDireita} alt="seta avançar" />
                     </button>
                 </div>

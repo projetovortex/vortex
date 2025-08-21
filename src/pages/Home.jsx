@@ -3,7 +3,7 @@ import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
 
 export function Home() {
     return(
-        <div className="bg-[url('./src/assets/bgClaro.png')] bg-cover h-screen w-screen">
+        <div className="bg-[url('./src/assets/bgClaro.png')] bg-cover">
             <HeaderLogadoClaro/>
             <div className="flex justify-center itens-center pt-20 gap-20 font-questrial text-white">
                 <div className="pt-30 pr-20">

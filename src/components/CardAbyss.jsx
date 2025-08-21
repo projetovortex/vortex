@@ -2,8 +2,8 @@ import abyssPerfil from "../assets/abyssPerfil.png"
 
 export function CardAbyss() {
     return(
-        <div>
-            <div className="flex gap-20 bg-gray-400 rounded-3xl p-20 max-w-300 max-h-150">
+        <div className="w-350 h-150">
+            <div className="flex gap-20 bg-linear-to-t to-yellow-abyss from-dark-abyss rounded-3xl p-20 max-w-300 max-h-150">
                 <img className="bg-white rounded-2xl" src={abyssPerfil} alt="abyss perfil" />
                 <div className="pt-20 font-questrial text-white">
                     <h2 className="pl-5 text-7xl text-yellow-950	 font-questrial pb-5">ABYSS</h2>

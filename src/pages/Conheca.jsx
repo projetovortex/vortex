@@ -4,10 +4,10 @@ import { Link } from "react-router-dom"
 
 export function Conheca() {
     return(
-        <div className="bg-[url('./src/assets/bgClaro.png')] bg-cover h-screen w-screen">
+        <div className="bg-[url('./src/assets/bgClaro.png')] bg-cover ">
             <HeaderLogadoClaro/>
             <div className="flex flex-col justify-center items-center">
-                <h1 className="text-7xl text-very-dark-blue font-questrial pb-5">Conheça o Vortex</h1>
+                <h1 className="text-7xl text-very-dark-blue font-questrial pb-5 text-shadow-sm text-shadow-cyan-shadow">Conheça o Vortex</h1>
 
                 <div className="flex gap-30 font-questrial text-white">
                     <div>
@@ -19,9 +19,9 @@ export function Conheca() {
                     </div>
                     
                     <div className="flex flex-col text-purple-button text-xl gap-10 pt-20">
-                        <Link to={"/ItensUsados"} className="cursor-pointer bg-cyan-button px-15 py-5 rounded-xl">Veja os itens</Link>
-                        <Link to={"/ComoUsar"} button className="cursor-pointer bg-cyan-button px-15 py-5 rounded-xl">Como usar</Link>
-                        <Link to={"/Referencias"} button className="cursor-pointer bg-cyan-button px-15 py-5 rounded-xl">Referências</Link>
+                        <Link to={"/ItensUsados"} className="cursor-pointer bg-cyan-button px-15 py-5 rounded-xl shadow-lg">Veja os itens</Link>
+                        <Link to={"/ComoUsar"} button className="cursor-pointer bg-cyan-button px-15 py-5 rounded-xl shadow-lg">Como usar</Link>
+                        <Link to={"/Referencias"} button className="cursor-pointer bg-cyan-button px-15 py-5 rounded-xl shadow-lg">Referências</Link>
                     </div>
                 </div>
             </div>

@@ -14,10 +14,10 @@ import { CardHan } from "../components/CardHan"
 
 export function Jogo() {
     return(
-        <div className="bg-[url('./src/assets/bgClaro.png')] bg-cover h-screen w-screen">
+        <div className="bg-[url('./src/assets/bgJogo1.png')] bg-cover">
             <HeaderLogadoClaro/>
             <div className="flex flex-col items-center">
-                <h1 className="text-7xl text-white font-questrial pb-10">Conheça nosso jogo</h1>
+                <h1 className="text-7xl text-white font-questrial pb-10 text-shadow-sm text-shadow-cyan-shadow">Conheça nosso jogo</h1>
 
                 <div className="flex gap-30 pb-15 font-questrial text-white">
                     <p className="text-3xl pt-30">Um mago causa fendas no <br />
@@ -28,8 +28,8 @@ export function Jogo() {
                     <img className="w-130 h-120 pb-10" src={imagemJogo} alt="imagem jogo" />
                 </div>
 
-                <div className="bg-[url('./src/assets/bgJogo1.png')] bg-cover pb-20 w-full flex flex-col items-center">
-                    <h1 className="pt-20 pb-25 text-7xl text-white font-questrial pb-5">Conheça nossos personagens</h1>
+                <div className="pb-20 w-full flex flex-col items-center">
+                    <h1 className="pt-20 pb-25 text-7xl text-white font-questrial pb-5 text-shadow-sm text-shadow-cyan-shadow">Conheça nossos personagens</h1>
                     
                     <div className="flex justify-center gap-10 font-questrial">
                         <div className="flex flex-col items-center">
@@ -50,18 +50,16 @@ export function Jogo() {
                         </div>
                     </div>
 
-                    <div className="pt-20 pb-10 w-full flex flex-col items-center">
-                    <h1 className="pt-10 pb-10 text-7xl text-white font-questrial pb-5">Onde são as aventuras</h1>
+                    <div className="pt-20 w-full flex flex-col items-center">
+                        <h1 className="pt-10 pb-10 text-7xl text-white font-questrial pb-5 text-shadow-sm text-shadow-cyan-shadow">Onde são as aventuras</h1>
 
-                    <div className="flex justify-center items-center">
-                        <img className="h-50" src={setaEsquerda} alt="seta esquerda" />
-                        <CardNymeria />
-                        <img className="h-50" src={setaDireita} alt="seta direita" />
+                        <div className="flex justify-center items-center">
+                            <img className="cursor-pointer h-50" src={setaEsquerda} alt="seta esquerda" />
+                            <CardHan />
+                            <img className="cursor-pointer h-50" src={setaDireita} alt="seta direita" />
+                        </div>
                     </div>
                 </div>
-                </div>
-
-                
             </div>
         </div>
     )
