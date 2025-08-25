@@ -55,7 +55,7 @@ export function Jogo() {
 
                         <div className="flex justify-center items-center">
                             <img className="cursor-pointer h-50" src={setaEsquerda} alt="seta esquerda" />
-                            <CardHan />
+                            <CardNymeria />
                             <img className="cursor-pointer h-50" src={setaDireita} alt="seta direita" />
                         </div>
                     </div>

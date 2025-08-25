@@ -2,7 +2,7 @@ import hanPerfil from "../assets/hanPerfil.png"
 
 export function CardHan() {
     return(
-        <div className="w-350 h-150">
+        <div className="">
             <div className="flex gap-20 bg-linear-to-t to-peach-han from-red-han rounded-3xl p-20 max-w-300 max-h-150">
                 <img className="bg-white rounded-2xl" src={hanPerfil} alt="nymeria perfil" />
                 <div className="pt-20 font-questrial text-white">

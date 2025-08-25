@@ -1,9 +1,23 @@
 import iconVortex from "../assets/iconVortex.png"
 import modoClaro from "../assets/modoClaro.png"
+import modoEscuro from "../assets/modoEscuro.png"
 import { Link } from "react-router-dom"
-import React from "react"
+import React, { useEffect } from "react"
+import { useState } from "react"
 
 export function HeaderLogadoClaro() {
+    const [theme, setTheme] = useState(() => localStorage.getItem("theme") ?? "")
+
+    useEffect(() => {
+        localStorage.setItem("theme", theme)
+        const tagHTML = document.documentElement
+        tagHTML.classList.remove("dark")
+
+        if(theme === "dark") {
+            tagHTML.classList.add("dark")
+        }
+    }, [theme])
+
     return(
         <div>
             <header className="px-10 py-5 pb-25 flex justify-between align-middle h-25 font-hanken font-bold text-white text-2xl">
@@ -21,7 +35,13 @@ export function HeaderLogadoClaro() {
                 </div>
                 
                 <div>
-                    <button className="cursor-pointer"><img className="w-20 h-20" src={modoClaro} alt="icone modo claro"/></button>
+                    <button className="cursor-pointer" onClick={() => setTheme(prevTheme => prevTheme === "dark" ? "" : "dark")}>
+                        {theme === "dark" ? (
+                            <img className="w-20 h-20" src={modoEscuro} alt="icone modo escuro"/>
+                        ) : (
+                            <img className="w-20 h-20" src={modoClaro} alt="icone modo claro"/>
+                        )}
+                    </button>
                 </div>
             </header>
         </div>

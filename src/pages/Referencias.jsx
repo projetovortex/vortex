@@ -2,7 +2,7 @@ import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
 
 export function Referencias() {
     return(
-        <div className="bg-[url('./src/assets/bgClaro.png')] bg-cover">
+        <div className="bg-[url('./src/assets/bgClaro.png')] bg-cover min-h-screen">
             <HeaderLogadoClaro/>
             <div className="flex flex-col justify-center items-center p-5">
                 <h1 className="text-7xl text-very-dark-blue font-questrial pb-5 text-shadow-sm text-shadow-cyan-shadow">Referências</h1>

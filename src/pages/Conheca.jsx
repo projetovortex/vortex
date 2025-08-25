@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 
 export function Conheca() {
     return(
-        <div className="bg-[url('./src/assets/bgClaro.png')] bg-cover ">
+        <div className="bg-[url('./src/assets/bgClaro.png')] bg-cover min-h-screen">
             <HeaderLogadoClaro/>
             <div className="flex flex-col justify-center items-center">
                 <h1 className="text-7xl text-very-dark-blue font-questrial pb-5 text-shadow-sm text-shadow-cyan-shadow">Conheça o Vortex</h1>
