@@ -4,10 +4,10 @@ import { Link } from "react-router-dom"
 
 export function Conheca() {
     return(
-        <div className="bg-[url('./src/assets/bgClaro.png')] bg-cover min-h-screen">
+        <div className="bg-[url('./src/assets/bgClaro.png')] dark:bg-[url('./src/assets/bgEscuroConheca.png')] bg-cover min-h-screen">
             <HeaderLogadoClaro/>
             <div className="flex flex-col justify-center items-center">
-                <h1 className="text-7xl text-very-dark-blue font-questrial pb-5 text-shadow-sm text-shadow-cyan-shadow">Conheça o Vortex</h1>
+                <h1 className="text-7xl text-very-dark-blue font-questrial pb-5 text-shadow-sm text-shadow-cyan-shadow dark:text-light-blue">Conheça o Vortex</h1>
 
                 <div className="flex gap-30 font-questrial text-white">
                     <div>

@@ -14,16 +14,16 @@ import setaDireita from "../assets/setaDireita.png"
 
 export function ItensUsados() {
     return(
-        <div className="bg-[url('./src/assets/bgJogo1.png')] bg-cover">
+        <div className="bg-[url('./src/assets/bgJogo1.png')] dark:bg-[url('./src/assets/bgJogoEscuro.png')] bg-cover">
             <HeaderLogadoClaro/>
-            <div className="h-screen bg-white flex flex-col justify-center items-center">
+            <div className="h-screen bg-white dark:bg-gray-200 flex flex-col justify-center items-center">
                 <h1 className="text-7xl text-purple-button font-questrial pb-5 pt-10 text-shadow-sm text-shadow-cyan-shadow-white">Itens Usados</h1>
 
                 <div className="flex">
                     <button className="cursor-pointer w-100 h-100">
                         <img src={setaEsquerda} alt="seta voltar" />
                     </button>
-                    <CardDinamo/>
+                    <CardStepUp/>
                     <button className="cursor-pointer w-100 h-100">
                         <img src={setaDireita} alt="seta avançar" />
                     </button>

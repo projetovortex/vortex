@@ -7,7 +7,7 @@ import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
 export function SobreNos() {
     return(
         <div>
-            <div className="bg-[url('./src/assets/bgSobreNos.png')] bg-cover">
+            <div className="bg-[url('./src/assets/bgSobreNos.png')] dark:bg-[url('./src/assets/bgSobreNosEscuro.png')] bg-cover">
                 <HeaderLogadoClaro/>
                 <div className="flex flex-col justify-center items-center">
                     <h1 className="text-7xl text-white font-questrial pb-7 text-shadow-sm text-shadow-cyan-shadow">Sobre nós</h1>
@@ -42,13 +42,13 @@ export function SobreNos() {
                             Basta escrever <br />para nós pelo card ao lado ou <br />mandar diretamente pelo nosso <br />email: 
                             <br />gatoarrupiada@gmail.com</p>
                     </div>
-                    <div className="flex flex-col justify-center items-center bg-linear-to-t from-cyan-input to-gray-input rounded-xl shadow-xl px-10 pt-10 pb-3 mb-30">
+                    <div className="flex flex-col justify-center items-center bg-linear-to-t from-cyan-input to-gray-input rounded-xl dark:to-cyan-dark-sobrenos dark:from-dark-sobrenos shadow-xl px-10 pt-10 pb-3 mb-30">
                         <div className="flex flex-col justify-center items-center gap-2 mb-5" action="">
-                            <textarea className="bg-white pl-5 pt-1 rounded-2xl text-2xl text-light-purple w-120 h-10" placeholder="Insira seu nome"></textarea>
-                            <textarea className="bg-white pl-5 pt-1 rounded-2xl text-2xl text-light-purple w-120 h-10" placeholder="Insira seu email"></textarea>
-                            <textarea className="bg-white pl-5 pt-1 rounded-2xl text-2xl text-light-purple w-120 h-30" placeholder="Fale conosco (até 500 caracteres)"></textarea>
+                            <textarea className="bg-white dark:bg-dark-purple pl-5 pt-1 rounded-2xl text-2xl text-light-purple dark:text-cyan-dark-sobrenos w-120 h-10" placeholder="Insira seu nome"></textarea>
+                            <textarea className="bg-white dark:bg-dark-purple dark:text-cyan-dark-sobrenos pl-5 pt-1 rounded-2xl text-2xl text-light-purple w-120 h-10" placeholder="Insira seu email"></textarea>
+                            <textarea className="bg-white dark:bg-dark-purple dark:text-cyan-dark-sobrenos pl-5 pt-1 rounded-2xl text-2xl text-light-purple w-120 h-30" placeholder="Fale conosco (até 500 caracteres)"></textarea>
                         </div>
-                        <button className="shadow-md cursor-pointer bg-purple-button2 text-cyan-button px-15 py-3 rounded-xl">ENVIAR</button>
+                        <button className="shadow-md cursor-pointer bg-purple-button2 dark:bg-light-blue dark:text-dark-sobrenos text-cyan-button px-15 py-3 rounded-xl">ENVIAR</button>
                     </div>
                 </div>
             </div>

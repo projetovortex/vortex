@@ -14,7 +14,7 @@ import { CardHan } from "../components/CardHan"
 
 export function Jogo() {
     return(
-        <div className="bg-[url('./src/assets/bgJogo1.png')] bg-cover">
+        <div className="bg-[url('./src/assets/bgJogo1.png')] dark:bg-[url('./src/assets/bgJogoEscuro.png')] bg-cover">
             <HeaderLogadoClaro/>
             <div className="flex flex-col items-center">
                 <h1 className="text-7xl text-white font-questrial pb-10 text-shadow-sm text-shadow-cyan-shadow">Conheça nosso jogo</h1>
