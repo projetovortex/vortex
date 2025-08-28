@@ -6,13 +6,31 @@ import han from "../assets/han.png"
 import setaEsquerda from "../assets/setaEsquerda.png"
 import setaDireita from "../assets/setaDireita.png"
 import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
+import React, { useState } from 'react'
 
 import { CardNymeria } from "../components/CardNymeria"
 import { CardAbyss } from "../components/CardAbyss"
 import { CardNefret } from "../components/CardNefret"
 import { CardHan } from "../components/CardHan"
 
+const cards = [
+    <CardNymeria key="nymeria" />,
+    <CardAbyss key="abyss" />,
+    <CardNefret key="nefret" />,
+    <CardHan key="han" />,
+];
+
 export function Jogo() {
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const handleNext = () => {
+        setCurrentIndex((prevIndex) => (prevIndex + 1) % cards.length);
+    };
+    const handlePrev = () => {
+        setCurrentIndex((prevIndex) =>
+        prevIndex === 0 ? cards.length - 1 : prevIndex - 1
+    );
+  };
+
     return(
         <div className="bg-[url('./src/assets/bgJogo1.png')] dark:bg-[url('./src/assets/bgJogoEscuro.png')] bg-cover">
             <HeaderLogadoClaro/>
@@ -54,9 +72,9 @@ export function Jogo() {
                         <h1 className="pt-10 pb-10 text-7xl text-white font-questrial pb-5 text-shadow-sm text-shadow-cyan-shadow">Onde são as aventuras</h1>
 
                         <div className="flex justify-center items-center">
-                            <img className="cursor-pointer h-50" src={setaEsquerda} alt="seta esquerda" />
-                            <CardNymeria />
-                            <img className="cursor-pointer h-50" src={setaDireita} alt="seta direita" />
+                            <img onClick={handlePrev} className="cursor-pointer h-50" src={setaEsquerda} alt="seta esquerda" />
+                            {cards[currentIndex]}
+                            <img onClick={handleNext} className="cursor-pointer h-50" src={setaDireita} alt="seta direita" />
                         </div>
                     </div>
                 </div>

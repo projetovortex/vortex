@@ -31,7 +31,7 @@ export function SobreNos() {
                         </div>
                     </div>
 
-                    <div className="lg:hidden p-10 flex flex-col gap-10 pb-50 font-questrial text-center text-purple-button text-2xl">
+                    <div className="lg:hidden p-10 flex flex-col gap-10 pb-50 font-questrial text-center text-purple-button dark:text-cyan-button text-2xl">
                         <div className="flex gap-5">
                             <div className="flex flex-col justify-center items-center">
                                 <img src={fatima} alt="fatima" />
@@ -56,12 +56,12 @@ export function SobreNos() {
                 </div>
 
                 <div className="lg:pt-30 flex flex-col justify-center items-center">
-                    <h1 className="lg:text-7xl text-6xl text-center lg:text-white text-purple-mobile-conheca font-questrial pb-20 text-shadow-sm text-shadow-cyan-shadow lg:px-0 px-10">Ainda tem alguma dúvida?</h1>
+                    <h1 className="lg:text-7xl text-6xl text-center lg:text-white text-purple-mobile-conheca font-questrial pb-20 text-shadow-sm text-shadow-cyan-shadow lg:px-0 px-10 dark:text-light-blue lg:dark:text-white">Ainda tem alguma dúvida?</h1>
 
-                    <div className="lg:flex justify-center gap-30 text-white font-questrial lg:p-0 p-10">
+                    <div className="lg:flex justify-center gap-30 lg:text-white lg:dark:text-white dark:text-cyan-input text-purple-button font-questrial lg:p-0 ">
                         <div className="lg:block flex flex-col items-center">
-                            <h1 className="lg:text-white text-purple-button text-center text-4xl pb-10">Fique tranquilo e contate-nos</h1>
-                            <p className="text-2xl lg:text-white text-purple-button font-questrial lg:pl-20 pb-20">A equipe Cat Vortex está aqui <br />para te ajudar! 
+                            <h1 className="lg:text-white text-center text-4xl pb-10">Fique tranquilo e contate-nos</h1>
+                            <p className="text-2xl font-questrial lg:pl-20 pb-20">A equipe Cat Vortex está aqui <br />para te ajudar! 
                                 Basta escrever <br />para nós pelo card ao lado ou <br />mandar diretamente pelo nosso <br />email: 
                                 <br />gatoarrupiada@gmail.com</p>
                         </div>
