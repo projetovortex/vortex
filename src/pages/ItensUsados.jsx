@@ -17,7 +17,7 @@ export function ItensUsados() {
         <div className="bg-[url('./src/assets/bgJogo1.png')] dark:bg-[url('./src/assets/bgJogoEscuro.png')] bg-cover">
             <HeaderLogadoClaro/>
             <div className="h-screen bg-white dark:bg-gray-200 flex flex-col justify-center items-center">
-                <h1 className="text-7xl text-purple-button font-questrial pb-5 pt-10 text-shadow-sm text-shadow-cyan-shadow-white">Itens Usados</h1>
+                <h1 className="lg:text-7xl text-5xl text-center text-purple-button font-questrial pb-5 lg:pt-10 text-shadow-sm text-shadow-cyan-shadow-white">Itens Usados</h1>
 
                 <div className="flex">
                     <button className="cursor-pointer w-100 h-100">
