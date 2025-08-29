@@ -11,7 +11,7 @@ export function Home() {
                     <h2 className="lg:text-shadow-none text-shadow-sm text-shadow-cyan-shadow-como lg:text-7xl text-3xl">Gere energia a partir <br />de seu movimento</h2>
                 </div>
                 
-                <img className="lg:block w-120 hidden" src={ciclista} alt="ilustração ciclista" />
+                <img className="lg:block w-120 h-150 hidden" src={ciclista} alt="ilustração ciclista" />
             </div>
         </div>
     )
