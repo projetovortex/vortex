@@ -24,10 +24,10 @@ const cards = [
     <CardHan key="han" />,
 ];
 const cardsMobile = {
-    cardNymeria: "../assets/cardNymeria.png",
-    cardAbyss: "/path/to/abyss.jpg",
-    cardNefret: "/path/to/nefret.jpg",
-    cardHan: "/path/to/han.jpg",
+    cardNymeria,
+    cardAbyss,
+    cardNefret,
+    cardHan,
   };
 
 export function Jogo() {
@@ -108,8 +108,8 @@ export function Jogo() {
                                 <img onClick={() => setOpenCard("cardHan")} className="p-2 rounded-3xl" src={han} alt="han" />
                         </div>
                         {openCard && (
-                            <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-                                <div ref={popupRef} className="bg-white p-4 rounded shadow-lg max-w-md max-h-[80vh] overflow-auto">
+                            <div className="fixed inset-0 bg-black-opacity flex justify-center items-center z-50">
+                                <div ref={popupRef} className="p-4 rounded shadow-lg max-w-md max-h-[80vh] overflow-auto">
                                     <img src={cardsMobile[openCard]} alt={openCard} className="max-w-full max-h-[70vh] object-contain"/>
                                 </div>
                             </div>
