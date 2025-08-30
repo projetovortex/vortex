@@ -39,10 +39,10 @@ export function ItensUsados() {
     return(
         <div className="bg-[url('./src/assets/bgJogo1.png')] dark:bg-[url('./src/assets/bgJogoEscuro.png')] bg-cover">
             <HeaderLogadoClaro/>
-            <div className="h-screen bg-white dark:bg-gray-200 flex flex-col justify-center items-center">
-                <h1 className="lg:text-7xl text-5xl text-center text-purple-button font-questrial pb-5 text-shadow-sm text-shadow-cyan-shadow-white">Itens Usados</h1>
+            <div className="h-screen w-screen bg-white dark:bg-gray-200 lg:flex flex-col justify-center items-center">
+                <h1 className="lg:text-7xl text-5xl text-center text-purple-button font-questrial pb-5 lg:pt-0 pt-10 text-shadow-sm text-shadow-cyan-shadow-white">Itens Usados</h1>
 
-                <div className="flex">
+                <div className="lg:flex gap-10 hidden w-screen justify-center">
                     <button className="cursor-pointer w-100 h-100">
                         <img onClick={handlePrev} src={setaEsquerda} alt="seta voltar" />
                     </button>
@@ -53,6 +53,18 @@ export function ItensUsados() {
                     <button className="cursor-pointer w-100 h-100">
                         <img onClick={handleNext} src={setaDireita} alt="seta avançar" />
                     </button>
+                </div>
+
+                <div className="lg:hidden bg-white dark:bg-gray-200 flex flex-col p-10 gap-20">
+                    <CardEsp32 />
+                    <CardBuckBoost />
+                    <CardCapacitor />
+                    <CardJumpers />
+                    <CardBateria />
+                    <CardSensor />
+                    <CardModulo />
+                    <CardStepUp />
+                    <CardDinamo />
                 </div>
             </div>
         </div>
