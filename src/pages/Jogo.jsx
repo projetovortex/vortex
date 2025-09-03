@@ -62,7 +62,7 @@ export function Jogo() {
     }, [openCard]);
 
     return(
-        <div className="lg:bg-[url('./src/assets/bgJogo1.png')] bg-cyan-mobile-conheca dark:bg-dark-purple lg:dark:bg-[url('./src/assets/bgJogoEscuro.png')] bg-cover">
+        <div className="lg:bg-[url('/src/assets/bgJogo1.png')] bg-cyan-mobile-conheca dark:bg-dark-purple lg:dark:bg-[url('/src/assets/bgJogoEscuro.png')] bg-cover">
             <HeaderLogadoClaro/>
             <div className="flex flex-col items-center lg:px-0">
                 <h1 className="lg:text-7xl text-6xl text-center lg:text-white lg:dark:text-white dark:text-light-blue text-purple-mobile-conheca font-questrial lg:pt-0 pt-10 pb-10 lg:px-0 px-10 text-shadow-sm text-shadow-cyan-shadow">Conheça nosso jogo</h1>

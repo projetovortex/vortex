@@ -2,7 +2,7 @@ import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
 
 export function Referencias() {
     return(
-        <div className="lg:bg-[url('./src/assets/bgClaro.png')] bg-cyan-mobile-conheca dark:bg-dark-purple-mobile-conheca lg:dark:bg-[url('./src/assets/bgEscuroConheca.png')] bg-cover min-h-screen">
+        <div className="lg:bg-[url('/src/assets/bgClaro.png')] bg-cyan-mobile-conheca dark:bg-dark-purple-mobile-conheca lg:dark:bg-[url('/src/assets/bgEscuroConheca.png')] bg-cover min-h-screen">
             <HeaderLogadoClaro/>
             <div className="flex flex-col justify-center items-center p-5">
                 <h1 className="lg:text-7xl text-6xl text-center lg:text-very-dark-blue text-purple-mobile-conheca font-questrial pb-5 text-shadow-sm text-shadow-cyan-shadow-como dark:text-light-blue">Referências</h1>

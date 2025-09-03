@@ -3,7 +3,7 @@ import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
 
 export function Aplicativo(){
     return(
-        <div className="lg:bg-[url('./src/assets/bgClaro.png')] bg-cyan-mobile-conheca dark:bg-dark-purple-mobile-conheca lg:dark:bg-[url('./src/assets/bgEscuro.png')] bg-cover h-screen w-screen">
+        <div className="lg:bg-[url('/src/assets/bgClaro.png')] bg-cyan-mobile-conheca dark:bg-dark-purple-mobile-conheca lg:dark:bg-[url('/src/assets/bgEscuro.png')] bg-cover h-screen w-screen">
             <HeaderLogadoClaro/>
             <div className="flex lg:flex-row flex-col justify-center lg:items-start items-center lg:gap-50">
                 <div className="flex flex-col lg:justify-normal justify-center lg:items-start items-center pt-10 font-questrial text-white">

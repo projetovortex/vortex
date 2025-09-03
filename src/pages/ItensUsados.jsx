@@ -37,7 +37,7 @@ export function ItensUsados() {
     };
 
     return(
-        <div className="bg-[url('./src/assets/bgJogo1.png')] dark:bg-[url('./src/assets/bgJogoEscuro.png')] bg-cover">
+        <div className="bg-[url('/src/assets/bgJogo1.png')] dark:bg-[url('/src/assets/bgJogoEscuro.png')] bg-cover">
             <HeaderLogadoClaro/>
             <div className="h-screen w-screen bg-white dark:bg-gray-200 lg:flex flex-col justify-center items-center">
                 <h1 className="lg:text-7xl text-5xl text-center text-purple-button font-questrial pb-5 lg:pt-0 pt-10 text-shadow-sm text-shadow-cyan-shadow-white">Itens Usados</h1>

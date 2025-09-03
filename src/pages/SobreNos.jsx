@@ -7,7 +7,7 @@ import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
 export function SobreNos() {
     return(
         <div>
-            <div className="lg:bg-[url('./src/assets/bgSobreNos.png')] bg-cyan-mobile-conheca dark:bg-dark-purple-mobile-conheca lg:dark:bg-[url('./src/assets/bgSobreNosEscuro.png')] bg-cover">
+            <div className="lg:bg-[url('/src/assets/bgSobreNos.png')] bg-cyan-mobile-conheca dark:bg-dark-purple-mobile-conheca lg:dark:bg-[url('/src/assets/bgSobreNosEscuro.png')] bg-cover">
                 <HeaderLogadoClaro/>
                 <div className="flex flex-col justify-center items-center">
                     <h1 className="lg:text-7xl text-6xl text-center lg:text-white text-purple-mobile-conheca font-questrial lg:pt-0 pt-10 pb-10 text-shadow-sm text-shadow-cyan-shadow dark:text-light-blue lg:dark:text-white">Sobre nós</h1>
