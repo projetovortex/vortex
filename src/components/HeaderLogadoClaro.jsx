@@ -26,10 +26,10 @@ export function HeaderLogadoClaro() {
     };
 
     return(
-        <div>
+        <div className="">
             <header className="px-10 py-5 lg:pb-25 flex justify-between align-middle h-25 font-hanken font-bold text-white text-2xl">
 
-                <div className="flex align-center justify-center gap-3">
+                <div className="flex align-center justify-center gap-3 lg:pr-10">
                     <Link to={"/"} className="cursor-pointer w-fit"><img className="lg:w-20 lg:h-20 w-15 h-15" src={iconVortex} alt="icone vortex"/></Link>
                     <Link to={"/"} className="lg:text-white text-purple-mobile dark:text-white cursor-pointer lg:pt-6 pt-4">VORTEX</Link>
                 </div>
@@ -42,7 +42,7 @@ export function HeaderLogadoClaro() {
                 </div>
                 
                 <div>
-                    <button className="lg:block hidden cursor-pointer" onClick={() => setTheme(prevTheme => prevTheme === "dark" ? "" : "dark")}>
+                    <button className="lg:block lg:pl-10 hidden cursor-pointer" onClick={() => setTheme(prevTheme => prevTheme === "dark" ? "" : "dark")}>
                         {theme === "dark" ? (
                             <img className="w-20 h-20" src={modoEscuro} alt="icone modo escuro"/>
                         ) : (
