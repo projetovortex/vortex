@@ -1,9 +1,11 @@
 import ciclista from "../assets/ciclista.png"
 import { HeaderLogadoClaro } from "../components/HeaderLogadoClaro"
 
+import bgClaro from "../assets/bgClaro.png"
+
 export function Home() {
     return(
-        <div className="lg:bg-[url('../assets/bgClaro.png')] lg:dark:bg-[url('../assets/bgEscuro.png')] bg-cyan-mobile dark:bg-dark-purple bg-cover min-h-screen">
+        <div className={`lg:bg-[url(${bgClaro})] lg:dark:bg-[url('../assets/bgEscuro.png')] bg-cyan-mobile dark:bg-dark-purple bg-cover min-h-screen`}>
             <HeaderLogadoClaro/>
             <div className="lg:bg-none bg-cover bg-[url('./src/assets/ciclistaMobile.png')] flex justify-center itens-center lg:px-10 pt-20 pb-10 gap-20 font-questrial text-white">
                 <div className="lg:block flex flex-col justify-center items-center xl:pt-30 xl:pr-20">
