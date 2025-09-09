@@ -20,11 +20,11 @@ export function Referencias() {
                         deste TCC.</p>
                     
                     
-                    <div className="flex flex-col text-purple-button text-2xl gap-10 lg:pt-10 pt-5">
-                        <button className="shadow-lg cursor-pointer bg-cyan-button lg:px-25 lg:py-5 p-5 rounded-xl">NOME DO ARTIGO</button>
-                        <button className="shadow-lg cursor-pointer bg-cyan-button lg:px-25 lg:py-5 p-5 rounded-xl">NOME DO ARTIGO</button>
-                        <button className="shadow-lg cursor-pointer bg-cyan-button lg:px-25 lg:py-5 p-5 rounded-xl">NOME DO ARTIGO</button>
-                        <button className="shadow-lg cursor-pointer bg-cyan-button lg:px-25 lg:py-5 p-5 rounded-xl">NOME DO ARTIGO</button>
+                    <div className="flex flex-col text-purple-button text-2xl gap-10 lg:pt-10 pt-5 text-center">
+                        <a href="https://drive.google.com/file/d/1ppSs5_S4tTNmkMXYQBJZp-F4W0L30Wqa/view?usp=sharing" className="shadow-lg cursor-pointer bg-cyan-button lg:px-25 lg:py-5 p-5 rounded-xl">Artigo 1</a>
+                        <a href="https://drive.google.com/file/d/1NA_RGfFDtmQ79hLmy-62tpLtvy_arQGp/view?usp=sharing" className="shadow-lg cursor-pointer bg-cyan-button lg:px-25 lg:py-5 p-5 rounded-xl">Artigo 2</a>
+                        <a href="https://drive.google.com/file/d/1qRg0KGx91pLhhW-NgcJC5BeLoPchqpi8/view?usp=sharing" className="shadow-lg cursor-pointer bg-cyan-button lg:px-25 lg:py-5 p-5 rounded-xl">Artigo 3</a>
+                        <a href="https://drive.google.com/file/d/1HnKx-Lf40ca-s3O5n7s9YK2ZyScie7NA/view?usp=sharing" className="shadow-lg cursor-pointer bg-cyan-button lg:px-25 lg:py-5 p-5 rounded-xl">Artigo 4</a>
                     </div>
                 </div>
             </div>
