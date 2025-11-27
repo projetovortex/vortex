@@ -10,7 +10,7 @@ export function ComoUsar() {
                 <div className="flex items-center lg:gap-20 lg:pt-20 ">
                     <p className="lg:block hidden w-140 text-center text-white text-4xl">Para utilizar nosso projeto, basta pedalar a bicicleta que o Vortex já gera a energia para o carregamento de seu dispositivo.
                     A entrada USB para o carregamento está na caixa embaixo do banco.</p>
-                <img className="lg:p-0 p-10" src={imagemProjeto} alt="" />
+                
                 </div>
                 <p className="lg:hidden block px-10 lg:text-white dark:text-cyan-button text-purple-mobile-conheca text-2xl pb-10">Para utilizar nosso projeto, basta pedalar a bicicleta que o Vortex já gera a energia para o carregamento de seu dispositivo.
                 A entrada USB para o carregamento está na caixa embaixo do banco.</p>
